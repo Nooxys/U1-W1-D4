@@ -1,0 +1,167 @@
+/* IMPOSTAZIONI GENERALI */
+
+/* HEADER */
+
+/* MAIN */
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&family=Roboto:wght@400;700&display=swap');
+body {
+}
+
+html {
+  width: 455px;
+}
+body {
+  background-image: url(/assets/img/sfondo.png);
+  margin: 1em;
+  font-family: 'Poppins', sans-serif;
+}
+header img {
+  padding-top: 2em;
+  width: 200px;
+  padding-bottom: 2em;
+}
+
+header {
+  text-align: center;
+  width: 422px;
+  height: 300px;
+  background: linear-gradient(179deg, #00a0c3, #0a6f88);
+  border: black;
+
+  box-shadow: -1px -1px 4px 2px rgba(0, 0, 0, 0.36);
+}
+
+header h1 {
+  margin-bottom: 2em;
+}
+.scritte {
+  color: white;
+  line-height: 1.5;
+  text-decoration: none;
+  font-weight: 400;
+}
+.fas {
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+main {
+  margin-top: 1em;
+  margin-bottom: 1em;
+  background-color: white;
+  box-shadow: -1px -1px 4px 2px rgba(0, 0, 0, 0.36);
+  padding: 1em;
+  line-height: 1.5em;
+}
+
+h2 {
+  font-size: 1.3em;
+  font-weight: bold;
+  margin-bottom: 1em;
+}
+address {
+  color: grey;
+  margin-bottom: 1em;
+}
+.viola {
+  color: #b037b0;
+  font-weight: 500;
+}
+p {
+  margin-bottom: 1em;
+}
+
+#listaul ul {
+  list-style: circle;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+.sfondo {
+  background-color: #d6d6d6;
+  border-radius: 3px;
+  border: black 1px solid;
+}
+
+ol {
+  list-style: decimal;
+  line-height: 1.5;
+  margin-bottom: 1em;
+  padding-left: 2em;
+}
+
+table {
+  text-align: center;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  border-bottom: blue solid;
+  margin-bottom: 2em;
+}
+iframe {
+  border-radius: 10px;
+  margin-bottom: 2em;
+}
+
+#tool {
+  color: #00a0c3;
+  font-weight: 500;
+}
+
+#novità {
+  background-color: #d6d6d6;
+  border: 3px grey;
+}
+
+#novità h4 {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+#novità h3 {
+  padding-left: 1em;
+}
+
+button {
+  background-color: #2479c0;
+  color: white;
+}
+
+form {
+  width: 100%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+form input {
+  border-bottom-style: dotted;
+}
+.correlati h4 {
+  text-align: center;
+  font-size: 1.3em;
+  font-weight: 500;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+.articoli {
+  background-color: #d6d6d6;
+}
+.articoli span {
+  color: #2479c0;
+}
